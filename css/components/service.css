@@ -1,0 +1,38 @@
+.services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 1.6rem;
+    background: #e6e3d8;
+    border-radius: 10px;
+    box-shadow: rgba(21, 21, 25, 0.21) 0px 19px 30px -10px;
+}
+
+.service img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.service h3 {
+    color: #212529;
+    font-weight: 300;
+}
+
+@media (max-width: 880px) {
+    .services {
+      flex-direction: column;
+    }
+  }
+
